@@ -23,7 +23,7 @@ public class SimpleMailApplication implements ApplicationRunner {
 
         Mail mail = new Mail();
         mail.setFrom("no-reply@hendisantika.com");
-        mail.setTo("info@hendisantika.com");
+        mail.setTo("hendisantika@yahoo.co.id");
         mail.setSubject("Sending Simple Email with JavaMailSender Example");
         mail.setContent("This tutorial demonstrates how to send a simple email using Spring Framework.");
 
